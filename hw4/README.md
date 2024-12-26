@@ -16,5 +16,5 @@ docker run --rm --name school-db -p 5433:5432/tcp -e POSTGRES_PASSWORD=example -
 
 ### Подключение к БД
 ```shell
-docker exec -it school-db psql -h localhost -p 5432 -U postgres -d SchoolDB
+docker exec -it school-db psql -h localhost -p 5433 -U postgres -d SchoolDB
 ```
